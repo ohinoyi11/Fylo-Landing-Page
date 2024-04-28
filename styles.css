@@ -1,0 +1,432 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #070439;
+  }
+  
+  body img {
+    max-width: 100%;
+  }
+  
+  body h1, body h2, body h3 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+  }
+  
+  ::placeholder {
+    color: #bfbfbf;
+  }
+  
+  .container {
+    padding: 20px;
+    max-width: 100%;
+    width: 1320px;
+    margin: 0 auto;
+  }
+  
+  .container .flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .container .flex-container div {
+    flex: 1;
+  }
+  
+  .container .row-reverse {
+    flex-direction: row-reverse;
+  }
+  
+  header .container {
+    padding-top: 65px;
+    margin-bottom: 42px;
+  }
+  
+  header .container .flex-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header .container .flex-header-container nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    top: -3px;
+  }
+  
+  header .container .flex-header-container nav ul li {
+    margin-left: 57px;
+  }
+  
+  .first-div-styles {
+    position: relative;
+    top: -35px;
+  }
+  
+  .first-div-styles h1 {
+    font-size: 2.5rem;
+    line-height: 60px;
+  }
+  
+  .first-div-styles p {
+    font-size: 1.1rem;
+    margin-top: -21px;
+    margin-right: 26px !important;
+  }
+  
+  input[type=email] {
+    width: 50%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #070439;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 31.3%;
+    background-color: #3065f8;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 12px;
+    box-shadow: 0 3px 8px -5px #070439;
+  }
+  
+  .bg-color {
+    background-color: #f8f8fe;
+    margin-top: 260px;
+    position: relative;
+    padding-bottom: 80px;
+  }
+  
+  .bg-color::before {
+    content: '';
+    background-image: url(../images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -121px;
+    left: 0;
+    height: 121px;
+    width: 100%;
+  }
+  
+  .second-div-styles h2 {
+    font-size: 2.4rem;
+  }
+  
+  .second-div-styles p {
+    margin-right: 26px !important;
+  }
+  
+  .illusration-img-2 {
+    width: 85% !important;
+    float: right;
+  }
+  
+  .green-text {
+    color: #3c9f8f;
+    border-bottom: 1px solid;
+    padding-bottom: 3px;
+  }
+  
+  .green-text img {
+    margin-bottom: -3px;
+  }
+  
+  .quote-box {
+    background-color: #fff;
+    padding: 25px 28px;
+    border: none;
+    margin-top: 48px;
+    width: 357px;
+    box-shadow: 0 0px 15px -5px #bfbfbf;
+  }
+  
+  .quote-box .icon-quote {
+    width: 5%;
+    height: auto;
+  }
+  
+  .quote-box p {
+    font-size: 13px;
+    line-height: 21px;
+  }
+  
+  .quote-box .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quote-box .profile img {
+    width: 32px;
+    border-radius: 32px;
+  }
+  
+  .quote-box .profile p {
+    margin-left: 8px;
+    font-size: 9px;
+    line-height: 11px;
+  }
+  
+  .quote-box .profile p .bold-name {
+    font-weight: 700;
+  }
+  
+  .bg-color-purple {
+    background-color: #585989;
+    padding: 55px 0;
+    color: #fff;
+  }
+  
+  .bg-color-purple .flex-container > :first-child {
+    margin-right: 5rem;
+  }
+  
+  .bg-color-purple .flex-container > :last-child {
+    margin-left: 10rem;
+  }
+  
+  .bg-color-purple h3 {
+    font-size: 2rem;
+  }
+  
+  .bg-color-purple input[type=email] {
+    width: 93%;
+  }
+  
+  .bg-color-purple button {
+    width: 13rem;
+    margin-left: 0px;
+  }
+  
+  footer {
+    background-color: #070439;
+    color: #fff;
+  }
+  
+  footer .container {
+    padding: 104px 20px 55px 20px;
+  }
+  
+  footer .container .footer-logo {
+    width: 175px;
+    filter: brightness(0) invert(1);
+  }
+  
+  footer .container .flex-container {
+    align-items: baseline;
+  }
+  
+  footer .container .flex-container .list-1 {
+    width: 21.5%;
+  }
+  
+  footer .container .flex-container .list-1 .phone-icon {
+    margin-right: 20px;
+  }
+  
+  footer .container .flex-container .list-1 .email-icon {
+    margin-right: 20px;
+  }
+  
+  footer .container .flex-container .list-2 {
+    width: 7%;
+  }
+  
+  footer .container .flex-container div {
+    flex: auto;
+  }
+  
+  footer .container .flex-container div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer .container .flex-container div ul li {
+    margin: 16px 0;
+  }
+  
+  footer .container .flex-container div .fab {
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 35px;
+  }
+  
+  footer .container .flex-container div .fa-facebook-f {
+    padding: 8px 12px;
+  }
+  
+  footer .container .flex-container div .fa-twitter {
+    margin: 0 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    body {
+      text-align: center;
+    }
+    body h1 {
+      font-size: 158%;
+      line-height: 35px;
+    }
+    .container .flex-container {
+      flex-direction: column;
+    }
+    header .container {
+      padding-top: 0 !important;
+      padding: 18px 24px !important;
+    }
+    header .container .flex-header-container .logo {
+      width: 80px;
+    }
+    header .container .flex-header-container nav ul {
+      font-size: 13px;
+      position: relative;
+      top: -2px;
+    }
+    header .container .flex-header-container nav ul li {
+      margin-left: 20px;
+      font-family: "Raleway", sans-serif;
+    }
+    .first-div-styles {
+      top: 0px;
+    }
+    .first-div-styles h1 {
+      font-size: 1.6rem;
+      line-height: 36px;
+    }
+    .first-div-styles p {
+      font-size: .9rem;
+      margin: 0 0 35px 0;
+      margin-right: 0 !important;
+      line-height: 20px;
+    }
+    input[type=email] {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+    button {
+      width: 100%;
+      color: white;
+      margin-left: 0;
+    }
+    .bg-color {
+      margin-top: 185px;
+    }
+    .bg-color::before {
+      content: '';
+      background-image: url(../images/bg-curve-mobile.svg);
+      top: -109px;
+      height: 110px;
+    }
+    .second-div-styles {
+      margin-top: 25px;
+    }
+    .second-div-styles h2 {
+      font-size: 1rem;
+      text-align: center;
+    }
+    .second-div-styles p {
+      margin-right: 0 !important;
+      font-size: .9rem;
+      text-align: left;
+    }
+    .second-div-styles .green-text {
+      text-align: center !important;
+      margin-top: 25px !important;
+    }
+    .second-div-styles .quote-box {
+      margin: auto;
+      margin-top: 55px;
+      width: 85%;
+    }
+    .second-div-styles .quote-box .icon-quote {
+      position: relative;
+      float: left;
+    }
+    .second-div-styles .quote-box p {
+      font-size: .7rem;
+    }
+    .illusration-img-2 {
+      width: 100% !important;
+      float: none;
+      margin-bottom: 25px;
+    }
+    .bg-color-purple {
+      padding: 20px 0 30px 0;
+    }
+    .bg-color-purple h3 {
+      font-size: 1.1rem;
+    }
+    .bg-color-purple .flex-container > :first-child {
+      margin-right: 0;
+    }
+    .bg-color-purple .flex-container > :last-child {
+      margin-left: 0;
+    }
+    .bg-color-purple input[type=email] {
+      width: 100%;
+    }
+    .bg-color-purple button {
+      width: 100%;
+      margin-left: 0px;
+    }
+    footer .container {
+      text-align: left;
+      padding: 64px 20px 40px 20px;
+    }
+    footer .container .footer-logo {
+      text-align: left;
+      width: 165px;
+      filter: brightness(0) invert(1);
+    }
+    footer .container .flex-container .list-1 {
+      width: 100%;
+    }
+    footer .container .flex-container .list-1 ul {
+      margin-bottom: 45px;
+    }
+    footer .container .flex-container .list-2 {
+      width: 100%;
+    }
+    footer .container .flex-container .list-2 ul {
+      margin-bottom: 45px;
+    }
+    footer .container .flex-container .list-3 {
+      width: 100%;
+    }
+    footer .container .flex-container .list-3 ul {
+      margin-bottom: 45px;
+    }
+    footer .container .flex-container .icons {
+      margin: 0 auto;
+    }
+  }
+  
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  
+  .attribution a {
+    color: #f6f6fe;
+  }
+  
